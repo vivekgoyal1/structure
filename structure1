@@ -1,0 +1,23 @@
+struct car
+{
+char *make;
+char *model;
+char *reg;
+struct 
+{
+int hp;
+int cc
+}e;
+struct
+{
+int length;
+int width; 
+}c;
+float cost;
+};
+void main()
+{
+struct car mycar;
+printf("%d",sizeof(struct car));
+printf("%d",sizeof(char *));
+}
