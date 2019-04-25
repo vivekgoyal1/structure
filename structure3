@@ -1,0 +1,18 @@
+struct car
+{
+char *make;
+char *model;
+};
+void main()
+{
+struct car mycar={"maruti","hiii"},yourcar={"maruti","hiii"};
+if(mycar==yourcar)
+{
+printf("vivek");
+}
+struct car p1=mycar;
+printf("%s",mycar.make);
+printf("%s",p1);
+printf("%s",p1.model);
+printf("%d",sizeof(char *));
+}
