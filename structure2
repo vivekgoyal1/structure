@@ -1,0 +1,17 @@
+struct car
+{
+char *make;
+char *model;
+};
+void main()
+{
+struct car mycar,yourcar;
+mycar.make="swift";
+mycar.model="vivek";
+yourcar.make="dezire";
+struct car p1=mycar;
+printf("%s",mycar.make);
+printf("%s",p1);
+printf("%s",p1.model);
+printf("%d",sizeof(char *));
+}
