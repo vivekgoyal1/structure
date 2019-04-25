@@ -1,0 +1,28 @@
+#include <stdio.h>
+struct eng
+{
+int hp;
+int cc;
+};
+struct chas
+{
+int length;
+int width;
+};
+struct student
+{
+struct eng e;
+struct chas c;
+};
+int main()
+{
+struct student mystu={{168,1400},{3200,2358}};
+if(mystu.e.cc>=1400)
+{
+printf("hiii vivek");
+}
+else
+{
+printf("vvvvv");
+}
+}
